@@ -1,0 +1,30 @@
+version: '3.3'
+
+services:
+  db:
+    image: postgres:15.1-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: ecommerce
+      POSTGRES_PASSWORD: ecommerce
+      POSTGRES_DB: ecommerce
+    ports:
+      - '5433:5432'
+    volumes:
+      - db:/var/lib/postgresql/data
+  api:
+    depends_on:
+      - db
+    build: .
+    ports:
+      - "3000:3000"
+    restart: always
+    environment:
+      ADDR: 0.0.0.0:3000
+      ENV: development
+      DB_DRIVER: postgres
+      DB_DSN: postgresql://ecommerce:ecommerce@db/ecommerce?sslmode=disable
+      DB_AUTO_MIGRATE: true
+
+volumes:
+  db: { }

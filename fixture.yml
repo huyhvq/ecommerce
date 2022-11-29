@@ -1,0 +1,64 @@
+- model: Product
+  rows:
+    - name: Clover cut-out knitted top
+      description: Taking form in a body-skimming knit with bold cut-out and cherry red for the festive season.
+      price: 100.99
+      attributes:
+        - colors:red
+        - colors:pink
+        - colors:orange
+        - size:xl
+        - size:x
+        - size:s
+        - categories:woman-top
+        - brand:amadeus
+        - collection:winter
+    - name: Victoria ruffle v-neck top
+      description: A lightweight organza top featured layered ruffles and frill detailing with a cut-out and an open back. This item is from the Holiday 2023 Collection.
+      price: 80.35
+      attributes:
+        - colors:white
+        - size:xl
+        - size:x
+        - size:s
+        - categories:woman-top
+        - brand:dearjose
+        - collection:winter
+    - name: Cup cake smocked cropped top
+      description: Featuring a cropped length, it boasts a lovely style with pleated detailing for an impressive look. This cropped top is named as a sweet cupcake.
+      price: 99.75
+      attributes:
+        - colors:red
+        - colors:pink
+        - colors:navy
+        - size:s
+        - size:x
+        - size:m
+        - categories:woman-top
+        - brand:dearjose
+        - collection:spring
+    - name: Bunny off-shoulder poplin top
+      description: Comfort abounds in an off-shoulder crop top with sleeve accents and elegant laps. Clover Bunny Top from the Holiday 2023 Collection.
+      price: 75.25
+      attributes:
+        - colors:red
+        - colors:pink
+        - colors:green
+        - size:s
+        - size:x
+        - size:m
+        - categories:woman-top
+        - brand:amadeus
+        - collection:spring
+    - name: Poker girl knitted top
+      description: Imagined in knitwear, this delicate top boasts a crew neckline, short sleeves and attractive buttons at the shoulders. Pair back with a high-waisted mini skirt or jeans for a feminine cool weather look.
+      price: 85.25
+      attributes:
+        - colors:red
+        - colors:pink
+        - size:s
+        - size:x
+        - size:m
+        - categories:woman-top
+        - brand:amadeus
+        - collection:summer
